@@ -1,6 +1,6 @@
 /* cores */
 :root {
-  --cinza-claro: #1481630A;
+  --cinza-claro: rgb(13, 13, 14);
 }
 /* fim cores */
 body, html {
@@ -34,7 +34,7 @@ h2 {  font-size: 32px; }
   background: url(https://dansilvag3.github.io/Portfolio/assets/img/escritorio.jpg) no-repeat;
   background-size: cover;
   width: 100%;
-  height: 320px;
+  height: 500px;
   overflow: hidden;
   background-attachment: fixed;
   display: flex;
@@ -64,7 +64,7 @@ input,.toggle {color: #fff;
 input {opacity: 0; }
 .toggle {pointer-events: none;
   border-radius: 50%;
-  background: #000;
+  background: #201f1f;
   transition: 0.5s;
   text-align: center;
   line-height: 42px;
@@ -91,7 +91,7 @@ input:checked ~ .details {opacity: 1;transition-delay: 0.5s; }
 
 h1 {
   text-align: center;
-  color: #000;
+  color: #9d05bb;
   font-size: 24px;
 }
 /*objetivo profissional*/
@@ -101,7 +101,7 @@ h1 {
   /* animation: BackgroundGradient 10s ease infinite;  */
   padding: 40px 0;}
 .obj-profissional p{text-align: center;
-      color: #000;
+      color: #fff;
       margin: 0;}
 .obj-profissional a:hover{text-decoration: none;}
 .obj-profissional .desc{justify-content: center;
@@ -115,7 +115,7 @@ h1 {
     text-align: center;
     border-radius: 5px;}
 
-i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 10px;}
+i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9d05bb;padding: 10px;}
 
 @keyframes BackgroundGradient {
   0% {background-position: 0% 50%; }
