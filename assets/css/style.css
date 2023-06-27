@@ -1,6 +1,6 @@
 /* cores */
 :root {
-  --cinza-claro: rgb(13, 13, 14);
+  --cinza-claro: rgb(35, 35, 36);
 }
 /* fim cores */
 body, html {
@@ -91,7 +91,7 @@ input:checked ~ .details {opacity: 1;transition-delay: 0.5s; }
 
 h1 {
   text-align: center;
-  color: #9d05bb;
+  color: #9801df;
   font-size: 24px;
 }
 /*objetivo profissional*/
@@ -115,7 +115,7 @@ h1 {
     text-align: center;
     border-radius: 5px;}
 
-i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9d05bb;padding: 10px;}
+i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9801df;padding: 10px;}
 
 @keyframes BackgroundGradient {
   0% {background-position: 0% 50%; }
@@ -183,7 +183,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9d05bb;paddin
 } */
 .tools .content-item .item-line hr.line{
   margin: 0;
-  border: 2px solid red;
+  border: 2px solid #9801df;
 }
 /* fim - tecnologias */
 
@@ -196,12 +196,13 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9d05bb;paddin
 .formacao {height: auto;
   padding-bottom: 30px;
   padding: 50px 0;
-  background: var(--cinza-claro); }
+  background: #000; }
 
 .formacao .escolaridade {     }
-  .formacao h2 { padding: 20px 0;color: #000; }
-  .formacao p {color: #000; }
-.middle {top: 50%;left: 50%; transform: translate(-50%, -50%); }
+  .formacao h1 {font-size: 34px; padding: 20px 0;color: #9801df;}
+  .formacao h2 { padding: 20px 0;color: #9801df; }
+  .formacao p { color: #ffffff; }
+.middle {top: 50%;left: 50%; transform: translate(-50%, -50%); background-color: #000; }
 .card { width: 340px;height: 230px;border-radius: 10px; }
   .card:hover > .front { transform: perspective(600px) rotateY(-180deg); }
   .card:hover > .card-body {transform: perspective(600px) rotateY(0deg); }
@@ -210,6 +211,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9d05bb;paddin
   overflow: hidden;
   backface-visibility: hidden;
   position: absolute;
+  background: var(--cinza-claro);
   transition: transform .6s linear; }
 .front { transform: perspective(600px) rotateY(0deg); height: 100%; }
 .front img {padding-top: 20px;height: 150px;text-align: center; }
@@ -220,25 +222,25 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9d05bb;paddin
 .card-body ul li p {padding: 0; margin-bottom: 0; }
 .back-content {color: #2c3e50;text-align: center; width: 100%; }
 /*EXPERIENCIA PROFISSIONAL*/
-.experiencia {padding: 50px 0; background: #fff; }
+.experiencia {padding: 50px 0; background: var(--cinza-claro); }
 .content-box {width: 600px; height: auto; }
 .content-box ul {
-    background: var(--cinza-claro);
+    background: #000;
     padding: 10px 15px;
     border-radius: 5px;
     list-style-type: none; }
     .content-box ul li .title {
       font-weight: bold; 
-      color: #000; }
-.content-box span{color: #000;}
-.content-box h2{padding: 20px 0;color: #000;}
+      color: #ffffff; }
+.content-box span{color: #ffffff;}
+.content-box h2{padding: 20px 0;color: #9801df;}
 /*TRABALHOS*/
 .trabalho { background: var(--cinza-claro);
   height: auto;
   max-height: auto;
   padding: 50px 0;
   text-align: center; }
-  .trabalho h2 {color: #000; }
+  .trabalho h2 {color: #9801df; }
   .trabalho a { color: #D4AF37;font-size: 20px; }
     .trabalho a:hover { text-decoration: none; }
 .trabalhos{justify-content: center;}
@@ -251,7 +253,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9d05bb;paddin
   border-radius: 20px;}
 .trabalhos .foto-trabalho{
   width: 300px;
-  background: #fff;
+  background: #9801df;
   height: 200px;
   max-height: 200px;
   margin-right: 5px;
@@ -264,11 +266,11 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9d05bb;paddin
   border-radius: 0px 20px 0px 0px;}
 .trabalhos .desc-trabalho{
   width: 300px;
-  background: #fff;
+  background: #000;
   margin: 0 5px; 
   padding: 10px;
   height: auto;}
-.trabalhos .desc-trabalho h4{font-weight: bold;color:#000;}
+.trabalhos .desc-trabalho h4{font-weight: bold;color:#9801df;}
 .trabalhos .desc-trabalho p{ margin: 0;font-weight: bold;color:red;}
 .trabalhos .desc-trabalho ul {
     display: flex;
