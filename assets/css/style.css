@@ -234,6 +234,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9801df;paddin
       color: #ffffff; }
 .content-box span{color: #ffffff;}
 .content-box h2{padding: 20px 0;color: #9801df;}
+
 /*TRABALHOS*/
 .trabalho { background: var(--cinza-claro);
   height: auto;
@@ -304,6 +305,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #9801df;paddin
   margin-top: 50px;}
 .trabalho .funcoes h3{padding: 10px;}
 .trabalho .funcoes ul li{text-align: left;}
+
 
 /*CURSOS*/
 .cursos-2{
